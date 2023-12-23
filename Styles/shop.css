@@ -1,0 +1,259 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header realated styles */
+header {
+    height: 625px;
+    flex-shrink: 0;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+nav {
+    display: flex;
+    gap: 200px;
+    padding: 100px 150px 0px 150px;
+}
+
+.nav-title {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.nav-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    background: #E55473;
+    border-radius: 5px;
+}
+
+.nav-img {
+    height: 525px;
+}
+
+/* Featured related styles */
+.featured-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.featured-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.featured-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.featured-img-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    height: 300px;
+    margin-top: 50px;
+    padding: 20px 20px 0px 20px;
+}
+
+.featured-img-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    height: 300px;
+    width: 220px;
+    margin-top: 50px;
+    padding: 20px 20px 0px 20px;
+}
+
+.featured-img-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    height: 300px;
+    margin-top: 50px;
+    padding: 20px 20px 0px 20px;
+}
+
+.flower-name {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 50px 220px;
+}
+
+.img {
+    padding: 30px 80px 0px 80px;
+}
+
+.service-name {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 19px;
+    font-weight: 900;
+    line-height: 35px;
+    padding: 20px;
+}
+
+/* Hot Deal section */
+.deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    padding: 80px 200px 50px 200px;
+    gap: 100px;
+}
+
+.deal-title {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.off {
+    color: #E55473;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.sign-up-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 9px 16px;
+    margin: 30px 0px 0px 170px;
+}
+
+/* social site */
+.inst-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.inst-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.inst-container {
+    display: flex;
+    height: 300px;
+    gap: 22px;
+    margin: 50px 125px 50px 125px;
+}
+
+/* latest deals */
+.latest-deals {
+    background-image: url(../Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    height: 450px;
+    margin: 50px 125px;
+}
+
+.latest-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 100px;
+}
+
+.latest-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.email {
+    margin-left: 400px;
+    padding: 12px 25px;
+}
+
+.latest-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    background: #E55473;
+    padding: 8px 13px;
+    border-radius: 8px;
+    margin-left: 15px;
+}
+
+/* Footer related style */
+footer {
+    background: #111010;
+    height: 450px;
+}
+
+.footer-title {
+    text-align: center;
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 80px;
+}
+
+.shop {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.footer-rights{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
